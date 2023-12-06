@@ -17,29 +17,27 @@
   display: flex;
   background-color: #0a2850;
   color: #fff;
-  padding: 119px 80px 173px;
+  padding: 110px 80px 173px;
   justify-content: space-between;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .about__title {
   margin: 0;
-  position: relative;
-  top: -19px;
   max-width: 251px;
   font-weight: 500;
   line-height: 52px;
   font-size: 44px;
-  z-index: 1;
 }
 
 .about__content {
   max-width: 660px;
+  padding: 19px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  z-index: 1;
 }
 
 .about__paragraph {
@@ -56,7 +54,7 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   top: -152px;
   left: -129px;
